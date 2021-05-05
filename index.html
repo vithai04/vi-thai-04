@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Vi Thai</title>
+	<!--Bootstrap stylesheet-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<!-- Font Awesome Stylesheet -->
+	<script src="https://kit.fontawesome.com/b163e94cdc.js" crossorigin="anonymous"></script>
+	<!-- Google Font-->
+	<link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h3>Welcome<br>
+			 I'm glad that you're here</h3>
+		<img src="logo2.png" alt="portfolio logo" height="200" width="300" class="img-fluid logo">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="form.html">Form</a></li>
+			<li><a href="multimedia.html">Multimedia</a></li>
+			<li><a href="flappy.html">Flappy Bird</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="logo"></div>
+		<!--This is the main section-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="picofme.jpg" class="img-fluid" alt=" A picture of my face" height="350" width="500">
+			</div>
+			<div class="col-md-6">
+				<div class="content">
+					<h2>About Me</h2>
+						<p>My name is Vi Thai and I study in Web Design and Web Programing at St.Paul, Minnesota. I made this website as a portfolio of my skills developing websites.</p>
+						<p>Courses that I have been taken at Saint Paul College:</p>
+							<ul> 
+								<li>Web Fundamentals, where I learned HTML and CSS</li>
+								<li>Client Side Programming where I learned JavaScript</li>
+								<li>Server Side Programming where I learned PHP/MySql</li>
+								<li>Web Design</li>
+							</ul>
+				</div>
+			</div>
+
+		<form action="https://webdevstudents.com/portfolio/submit-form.php" method="post">
+		<label for="first_name">*First Name</label>
+		<input type="first_name" id="first_name" name="first_name" required>
+		<label for="last_name">*Last Name</label>
+		<input type="last_name" id="last_name" name="last_name" required>
+		<label for="email">*Email</label>
+		<input type="email" id="email" name="email" required>
+		<label for="phone">*Phone</label>
+		<input type="phone" id="phone" name="phone" required>
+		<label for="comments">*Comments</label>
+		<textarea id="comments" name="comments"></textarea>
+		<label for="submit">*Submit</label>
+		<input type="submit" id="submit" name="submit" required>
+		</form>
+		<div class="main">
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="icon">
+						<i class="fas fa-building fa-2x center"></i>
+						<p><a href="https://saintpaul.edu" target="_blank">Saint Paul College</a></p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="icon">
+						<i class="fas fa-envelope fa-2x center"></i>
+						<p><a href="mailto:me@gmail.com" target="_blank">Email Me</a></p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="icon">
+						<i class="fas fa-phone-square fa-2x center"></i>
+						<p><a href="tel:9999999999">Call Me</a></p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="icon">
+						<i class="fas fa-envelope-open-text fa-2x center"></i>
+						<p><a href="sms:9999999999">Text Me</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<small>&copy; All rights reserved.</small>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
