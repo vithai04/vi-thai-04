@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsterrat:ital,wght@0,300;1,300;1,600&display=swap');
+body{
+	font-family: 'Monsterrat', sans-serif;
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+}
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+header{
+	font-family: 'Monofett', cursive;
+	text-align: center;
+}
+
+/* Vertical Navigation Bar */
+nav{ 
+	text-align: center;
+	background-color: #A3CC85;
+ }
+nav ul{
+	list-style-type:none;
+}
+nav li{
+	display: inline;
+	color: #FFFFFF;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+	color: #FFFFFF;
+}
+nav a:link{
+	color: #FFFFFF;
+}
+nav a:visited{
+	color:#FFFFFF;
+}
+nav a:hover{
+	color:#FFFFFF;
+}
+nav a:active{
+	color:#FFFFFF;
+}
+
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+/* CSS for Smartphones */
+@media only screen and (max-width:768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+/* Table */
+table{
+	border-collapse: collapse;
+}
+td, th{
+	border: 1px solid blue;
+	padding:5px;
+}
+th{
+	background-color: blue;
+	color:white;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+footer{
+	text-align: center;
+	background-color: #A3CC85;
+	color: #FFFFFF;
+}
+.icon{
+	color: #FFFFFF;
+}
+#submit{
+	display: block;
+	background-color: lightgray;
+}
